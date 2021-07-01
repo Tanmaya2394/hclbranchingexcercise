@@ -71,4 +71,34 @@
    71  git commit --amend
    72  git log
    
+   commit without going to merge
+21  echo "this is an README file" > Readme.md
+   22  cat Readme.md
+   23  git add Readme.md
+   24  git commit -m "README file added"
+   25  git status
+   26  git checkout -b "branch_to_create_merge_conflict"
+   27  git branch
+   28  vi Readme.md
+   29  git add Readme.md
+   30  git commit -m "Edit made to readme on master branch"
+   31  git branch
+   32  git merge
+   33  git checkout master
+   34  vi Readme.md
+   35  git add .
+   36  git commit -m "Edit made on the readme on master branch"
+   37  history
+   38  git commit -m "README file added"
+   39  git status
+   40  git checkout -b "branch_to_create_merge_conflict"
+   41  git branch
+   42  git checkout master
+   43  git branch
+   44  history
+   45  cat Readme.md
+   46  vi Readme.md
+   47  git status
+   48  git merge --abort
+   49  git status
 
