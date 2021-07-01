@@ -1,1 +1,62 @@
+    1  vi /etc/cloud/cloud.cfg
+    2  adduser hcladmin
+    3  passwd hcladmin
+    4  usermod –aG wheel hcladmin
+    5  usermod -aG wheel hcladmin
+    6  exit
+    7  ls -la
+    8  ~git -version
+    9  yum install git
+   10  git --version
+   11  history
+   12  mkdir branchingproject
+   13  cd nranchingproject/
+   14  cd branchingproject/
+   15  touch DS_Store
+   16  touch Calcy.py
+   17  git init
+   18  git add .
+   19  git commit -m "framework for calcy project"
+   20  git log
+   21  vi Calcy.py
+   22  git add.
+   23  git add .
+   24  git commit -m "Branching project started"
+   25  git log
+   26  history
+   27  clear
+   28  git branch
+   29  git branch calc-divide
+   30  git branch
+   31  git checkout calc-divide
+   32  git branch
+   33  vi Calcy.py
+   34  git checkout calc-divide
+   35  git add .
+   36  git commit -m "added divide functionality"
+   37  git branch
+   38  git log
+   39  git branch -a
+   40  history
+   41  git remote add origin https://github.com/Tanmaya2394/hclbranchingexcercise.git
+   42  git checkout master
+   43  git push -u origin master
+   44  git checkout calc-divide
+   45  git push origin calc-divide
+   46  history
+   47  git branch -a
+   48  git branch
+   49  git checkout master
+   50  git branch
+   51  git merge calc-divide
+   52  git push -u origin master
+   53  git branch -a
+   54  git pull
+   55  git branch -d calc-divide
+   56  git branch -a
+   57  git pull
+   58  git push origin -delete calc-divide
+   59   git push origin --delete calc-divide
+   60  git branch -a
+   61  history
 
