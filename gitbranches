@@ -71,7 +71,8 @@
    71  git commit --amend
    72  git log
    
-   commit without going to merge
+   merge without going to sub branch
+   +++++++++++++++++++++++++++++++++++++++
 21  echo "this is an README file" > Readme.md
    22  cat Readme.md
    23  git add Readme.md
