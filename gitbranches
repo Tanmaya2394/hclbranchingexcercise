@@ -59,4 +59,16 @@
    59   git push origin --delete calc-divide
    60  git branch -a
    61  history
+   62  touch secretfile
+   63  git status
+   64  ls
+   65  git add .
+   66  git status
+   67  git commit -m "secret file by mistake added"
+   68  git log
+   69  git reset
+   70  git status
+   71  git commit --amend
+   72  git log
+   
 
